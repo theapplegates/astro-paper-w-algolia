@@ -7,7 +7,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://lucky-monstera-9fbbf3.netlify.app/",
+  site: "https://paper.paulapplegate.com/",
   integrations: [
     tailwind({
       config: {

@@ -34,9 +34,8 @@ const searchList = posts
       selector: 'div#search',
     });
   </script>
-  <div id="search"></div>
   <Main pageTitle="Search" pageDesc="Search any article ...">
-    <Search client:load searchList={searchList} />
+    <div id="search"></div>
   </Main>
   <Footer />
 </Layout>
